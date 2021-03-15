@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Demo AIT</string>
+
+    <string name="string_a" translatable="false">English</string>
+
+    <string-array name="array_a_b_c">
+        <item>AAAAAAAA</item>
+        <item>BBBBBBBB</item>
+        <item>CCCCCCCC</item>
+    </string-array>
+
+    <plurals name="plurals_a_b_c">
+        <item quantity="one">1 book</item>
+        <item quantity="other">%d books</item>
+    </plurals>
+
+</resources>

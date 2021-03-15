@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deals_app_name">Demo AIT</string>
+
+    <string name="deals_string_a" translatable="false">English</string>
+
+    <string-array name="deals_array_a_b_c">
+        <item>AAAAAAAA</item>
+        <item>BBBBBBBB</item>
+        <item>CCCCCCCC</item>
+    </string-array>
+
+    <plurals name="deals_plurals_a_b_c">
+        <item quantity="one">1 book</item>
+        <item quantity="other">%d books</item>
+    </plurals>
+</resources>
