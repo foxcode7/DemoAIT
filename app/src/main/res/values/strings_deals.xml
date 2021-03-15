@@ -11,7 +11,7 @@
     </string-array>
 
     <plurals name="deals_plurals_a_b_c">
-        <item quantity="one">1 book</item>
-        <item quantity="other">%d books</item>
+        <item quantity="one">1 cat</item>
+        <item quantity="other">%d cats</item>
     </plurals>
 </resources>
