@@ -140,7 +140,7 @@ def parse_strings_xml(path):
 
 def main():
     request = urllib2.Request("https://api.github.com/repos/ParticleMedia/Android/pulls")
-    request.add_header('Authorization', 'token ed886d7b63ff274f652dc19f47a0cafe96ac68ea')
+    request.add_header('Authorization', 'token adc5361862bd17062722d91321ccccec5eddb3f1')
     response = urllib2.urlopen(request)
     data = json.loads(response.read())
 
@@ -164,8 +164,10 @@ def main():
                 transJson['pr_link'] = item['html_url']
                 transJson['jira_label'] = 'CA-1550' # todo test data
                 transJson['jira_link'] = 'https://particlemedia.atlassian.net/browse/' + transJson['jira_label']
-                transJson['branch_from'] = item['base']['ref']
-                transJson['branch_to'] = item['head']['ref']
+                # transJson['branch_from'] = item['base']['ref']
+                transJson['branch_from'] = 'feature/addDog'
+                # transJson['branch_to'] = item['head']['ref']
+                transJson['branch_to'] = 'master'
                 # run_git_command('git pull')
                 # run_git_command('git checkout ' + item['head']['sha'])
                 parseXml = parse_xml(find_lang_support(), find_strings_xml())
