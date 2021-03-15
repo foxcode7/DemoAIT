@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Demostración AIT</string>
+    
+    <string name="string_a" translatable="false">1</string>
+
+    <string-array name="array_a_b_c">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+
+    <plurals name="plurals_a_b_c">
+        <item quantity="one">1</item>
+        <item quantity="other">1</item>
+    </plurals>
 </resources>
+
