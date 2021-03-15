@@ -4,7 +4,7 @@
     <string name="string_a" translatable="false">English</string>
 
     <string-array name="array_a_b_c">
-        <item>AAAAAAAAA</item>
+        <item>AAAAAAAA</item>
         <item>BBBBBBBB</item>
         <item>CCCCCCCC</item>
     </string-array>
