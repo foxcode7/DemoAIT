@@ -10,8 +10,8 @@
     </string-array>
 
     <plurals name="plurals_a_b_c">
-        <item quantity="one">1 book</item>
-        <item quantity="other">%d books</item>
+        <item quantity="one">1 dog</item>
+        <item quantity="other">%d dogs</item>
     </plurals>
 
 </resources>
