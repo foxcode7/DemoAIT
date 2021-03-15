@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Demo a AIT</string>
+    <string name="app_name">Demo AIT</string>
 
     <string name="string_a" translatable="false">English</string>
 
